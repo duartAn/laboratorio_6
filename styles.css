@@ -1,0 +1,130 @@
+h1 {
+    color: #0c4a6e;
+    font-style: Georgia;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+h3 {
+    color: #0c4a6e;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f6fb;
+    color: #333;
+}
+
+/*HEADER*/
+.header{
+    background-color: #0c4a6e;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.lead{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #333;
+    background-color: #fff9e6;
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+#post-uno {
+    background-color: #fff9e6; 
+    border-left: 5px solid #0c4a6e; 
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+#post-dos {
+    background-color: #fff9e6; 
+    border-left: 5px solid #0c4a6e; 
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+/* BARRA DE NAVEGACION DE LA PÁGINA*/
+.navbar {
+    width: 750px;
+    height: 45px;
+    background-color: #0c4a6e;
+    margin-bottom: 30px;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    height: 45px;
+    list-style: none;
+}
+/* ELEMENTOS DE LA LISTA*/
+li{
+    float: left;
+    padding: 15px 20px;
+}
+
+/*CONTENIDO DE TABLA*/
+table {
+    width: 100%; 
+    border-collapse: collapse; 
+    margin: 20px 0; 
+    font-family: Arial, sans-serif;
+}
+
+th, td {
+    border: 1px solid #0c4a6e; 
+    padding: 12px 15px; 
+    text-align: left; 
+}
+
+th {
+    background-color: #0c4a6e;
+    color: white; 
+}
+
+td {
+    background-color: white; 
+}
+
+/* CONTENIDO LINK*/
+a{
+    color: rgb(255, 255, 255);
+    border-right: 2px solid #97b8cc;
+    padding: 0 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none; /* esta linea quita el subrayado */
+}
+
+.subtitulo a {
+    color: #0c4a6e;
+    text-decoration: none; 
+}
+
+.enlace{
+    color: #0c4a6e;
+    text-decoration: none; 
+}
+
+
+.post-body p {
+    margin-bottom: 20px;
+  
+}
+/*Justificar contenido*/
+.centrar{
+    text-align: center;
+}
+.justificar{
+    text-align: justify;
+}
+footer {
+    background-color: #0c4a6e;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+}
